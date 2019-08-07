@@ -38,3 +38,228 @@
 .data-char {
   font-size: 10px;
 }
+
+.data-test{
+  font-size: 50px;
+}
+
+.normal{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.fighting{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.flying{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.poison{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.ground{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.rock{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.bug{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.ghost{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.steel{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+
+.fire{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.water{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.grass{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.electric{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.psychic{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.ice{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.dragon{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.dark{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.fairy{
+  background-color:#78C850;
+  border:1px solid #4E8234;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.blank{
+  display: none;
+}
