@@ -5,8 +5,8 @@ class Pokemon {
     this.sprite = data.sprites.front_default;
     this.type1 = data.types[0].type.name;
     this.type2 = (data.types.length) > 1 ?  data.types[1].type.name : 'blank';
-    this.height = ((''+data.height).length) > 1 ? (''+data.height)[0] + '.' + (''+data.height)[1] + ' m' : '.' + data.height + ' m';
-    this.weight = (''+data.weight)[0] + '.' + (''+data.weight)[1] + ' kg'; 
+    this.height = ((''+data.height).length) > 1 ? 'Height: ' + (''+data.height)[0] + '.' + (''+data.height)[1] + ' m' : 'Height: .' + data.height + ' m';
+    this.weight = 'Weight: ' + (''+data.weight)[0] + '.' + (''+data.weight)[1] + ' kg'; 
   }
     
 }

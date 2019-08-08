@@ -11,7 +11,7 @@ const DetailView = ({ pokemon }) => {
         <h1 className='data-name'>{name} {id}</h1>
         <p className={type1}>{type1}</p>
         <p className={type2}>{type2}</p>
-        <p className="data-char"> <div>  <br /> Height: {height}  Weight: {weight}</div></p>
+        <p className="data-char"> <div>  <br /> {height}  {weight}</div></p>
         
 
       </div>
