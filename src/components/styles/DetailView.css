@@ -22,7 +22,7 @@
 
 .data-wrapper {
   width: 90%;
-  height: 135px;
+  height: 150px;
   padding: 10px;
   margin: 0 auto;
   background-color: #585858;
@@ -34,11 +34,15 @@
 .data-name {
   margin: 0 0 5px;
 }
+.data-abil{
+  position: relative; 
+  top: 10px;
+}
 
 .data-char {
   font-size: 10px;
-  position: relative;
-  top: 20px;
+  position: relative; 
+  top: 10px;
 }
 
 .data-test{
