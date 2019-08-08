@@ -37,6 +37,7 @@
 .data-abil{
   position: relative; 
   top: 10px;
+  font-weight: 500;
 }
 
 .data-char {
