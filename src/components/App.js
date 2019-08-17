@@ -12,6 +12,7 @@ class App extends Component {
     };
 
     this.handleOnClick = this.handleOnClick.bind(this);
+
   }
 
   handleOnClick(id) {
@@ -25,9 +26,31 @@ class App extends Component {
       .catch(err => console.log(err));
   }
 
-  render() {
+  test(){
+    console.log('oh lawdy!');
+  }
+
+handleChange = event => {
+   this.setState({ username: event.target.value });
+ };
+
+  render(handleOnClick) {
     return (
       <div className="App">
+        <div id="search">
+          <form>
+         
+         <input
+           type="text"
+           id="test"
+           name="username"
+           value={this.state.username}
+           onChange={this.handleChange}
+         />
+         <button onClick={this.handleOnClick(this.state.username)}>Click me</button>
+       </form>
+
+        </div>
         <PokeList handleOnClick={this.handleOnClick} />
         <DetailView pokemon={this.state.pokemon} />
       </div>

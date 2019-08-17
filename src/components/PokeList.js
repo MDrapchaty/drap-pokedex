@@ -18,6 +18,7 @@ const PokeList = ({ handleOnClick }) => {
     <section className="poke-list">
     	{cells}
     </section>
+   
   )
 }
 
