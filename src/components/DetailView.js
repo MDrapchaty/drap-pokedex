@@ -12,7 +12,7 @@ const DetailView = ({ pokemon }) => {
         <p className={type1}>{type1}</p>
         <p className={type2}>{type2}</p>
         <p className='data-abil'> {ability}</p>
-        <p className="data-char"> <div>  <br /> {height}  {weight}</div></p>
+        <p className="data-char">  <br /> {height} </p> <p className="data-char"> <span>'   '</span>{weight}</p>
         
 
       </div>

@@ -37,6 +37,7 @@
 .data-abil{
   position: relative; 
   top: 10px;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -44,6 +45,11 @@
   font-size: 10px;
   position: relative; 
   top: 10px;
+  display:inline-block;
+}
+
+span{
+  visibility: hidden;
 }
 
 .data-test{
