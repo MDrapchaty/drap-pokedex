@@ -26,28 +26,22 @@ class App extends Component {
       .catch(err => console.log(err));
   }
 
-  test(){
-    console.log('oh lawdy!');
-  }
-
 handleChange = event => {
-   this.setState({ username: event.target.value });
+   this.setState({ poke: event.target.value.toLowerCase() });
  };
 
-  render(handleOnClick) {
+  render() {
     return (
       <div className="App">
         <div id="search">
           <form>
-         
-         <input
-           type="text"
-           id="test"
-           name="username"
-           value={this.state.username}
-           onChange={this.handleChange}
-         />
-         <button onClick={this.handleOnClick(this.state.username)}>Click me</button>
+            <input
+              type="text"
+              placeholder="enter Pokemon 'name' or '#'"
+              name="poke"
+              value={this.handleOnClick(this.state.poke)}
+              onChange={this.handleChange}
+            />
        </form>
 
         </div>
