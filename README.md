@@ -1,5 +1,7 @@
 # drap-pokedex
 
+(Note: You must have React JS installed on your computer for this file to work.)
+
 ##### 1. Download or Clone file
 ##### 2. Traverse to the root folder in your Terminal / CLI
 ##### 3. run: `npm start` 
