@@ -5,6 +5,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "eslint-utils": "^1.4.2",
+    "express": "^4.17.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "^3.3.0",

@@ -4,6 +4,7 @@ import DetailView from './DetailView';
 import Pokemon from '../Pokemon';
 import './styles/App.css';
 
+
 class App extends Component {
   constructor() {
     super();
